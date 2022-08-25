@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  background: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.people {
+    font-size: 50px;
+    margin-right: 40px;
+}
+
+.main {
+    width: 100%;
+    margin: 80px 0;
+    height: auto;
+}
+
+.messages {
+     width: 100%;
+     display: flex;
+   flex-direction: column;
+
+   font-size: 14px;
+   gap: 4px;
+   padding: 25px 0;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 40px;
+    background-color: blue;
+    padding: 0 8px;
+    border-radius: 2px;
+
+}
+
+.footer {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  padding-bottom: 18px;
+
+  background: #ffffff;
+  box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.input-message{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.submit-icon {
+    width: 26px;
+    height: 26px;
+    background-image: url(./images/paper-plane-outline.svg);
+}
