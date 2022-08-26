@@ -3,6 +3,7 @@
 body {
   background: #e5e5e5;
   font-family: "Roboto", sans-serif;
+  overflow: scroll;
 }
 
 .header {
@@ -19,39 +20,58 @@ body {
 }
 
 .logo {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .people {
-    font-size: 50px;
-    margin-right: 40px;
+  font-size: 50px;
+  margin-right: 40px;
 }
 
 .main {
-    width: 100%;
-    margin: 80px 0;
-    height: auto;
+  width: 100%;
+  margin: 80px 0;
+  height: auto;
 }
 
 .messages {
-     width: 100%;
-     display: flex;
-   flex-direction: column;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 
-   font-size: 14px;
-   gap: 4px;
-   padding: 25px 0;
+  font-size: 14px;
+  gap: 4px;
+  padding: 25px 0;
+}
+
+.message-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 40px;
+
+  padding: 0 8px;
+  border-radius: 2px;
 }
 
 .message {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    min-height: 40px;
-    background-color: blue;
-    padding: 0 8px;
-    border-radius: 2px;
+  background-color: #ffffff;
+}
 
+.status {
+  background-color: #dcdcdc;
+}
+
+.private {
+  background-color: #ffdede;
+}
+
+.time {
+  color: #aaaaaa;
+}
+
+.bold {
+  font-weight: 700;
 }
 
 .footer {
@@ -66,15 +86,21 @@ body {
   box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
 }
 
-.input-message{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.input-message {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 40px;
+  padding-left: 20px;
+}
+
+.input {
+  width: 80%;
 }
 
 .submit-icon {
-    width: 26px;
-    height: 26px;
-    background-image: url(./images/paper-plane-outline.svg);
+  width: 26px;
+  height: 26px;
+  background-image: url(./images/paper-plane-outline.svg);
 }
