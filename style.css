@@ -103,4 +103,6 @@ body {
   width: 26px;
   height: 26px;
   background-image: url(./images/paper-plane-outline.svg);
+  background-color: #ffffff;
+  border: none;
 }
