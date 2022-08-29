@@ -5,25 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat UOL</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="header">
-      <img class="logo" src="./images/logo 1.png" alt="" /> 
+      <img class="logo" src="./images/logo 1.png" alt="Logo" />
       <ion-icon class="people" name="people"></ion-icon>
     </header>
     <main class="main">
-        <ul class="messages">
-            
-        </ul>
+      <ul class="messages">
+        <img class="loading" src="./images/loading.gif" alt="Loading">
+      </ul>
     </main>
     <footer class="footer">
-        <div class="input-message">
-            <input type="text" class="input" value="Escreva aqui...">
-            <button class="submit-icon" onclick="sendMessage()"></button>
-        </div>
-        
+      <div class="input-message">
+        <input type="text" class="input" value="Escreva aqui..." />
+        <button class="submit-icon" onclick="sendMessage()">
+          <img src="./images/paper-plane-outline.svg" alt="Botao Enviar" />
+        </button>
+      </div>
     </footer>
     <script
       type="module"
